@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 15px;
+  color: red;
+}
+
+form {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+.answer {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  form {
+    width: 95%;
+    margin-left: 2%;
+  }
+  .answer {
+    margin-left: 32%;
+  }
+}
